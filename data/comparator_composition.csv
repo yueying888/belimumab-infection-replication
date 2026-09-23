@@ -1,0 +1,19 @@
+source_system,therapeutic_class,comparator_case_n,comparator_case_pct,denominator_comparator_cases,multiple_class_membership_note
+FAERS,SYSTEMIC_GLUCOCORTICOID,2189,8.365179,26168,Cases may appear in multiple class rows; percentages need not sum to 100%.
+FAERS,ANTIMALARIAL,2383,9.106542,26168,Cases may appear in multiple class rows; percentages need not sum to 100%.
+FAERS,MYCOPHENOLATE,2818,10.768878,26168,Cases may appear in multiple class rows; percentages need not sum to 100%.
+FAERS,CALCINEURIN_INHIBITOR,6998,26.742586,26168,Cases may appear in multiple class rows; percentages need not sum to 100%.
+FAERS,AZATHIOPRINE,204,0.779578,26168,Cases may appear in multiple class rows; percentages need not sum to 100%.
+FAERS,CYCLOPHOSPHAMIDE,164,0.62672,26168,Cases may appear in multiple class rows; percentages need not sum to 100%.
+FAERS,METHOTREXATE,812,3.103027,26168,Cases may appear in multiple class rows; percentages need not sum to 100%.
+FAERS,RITUXIMAB,2035,7.776674,26168,Cases may appear in multiple class rows; percentages need not sum to 100%.
+FAERS,OTHER_BIOLOGIC_TARGETED_THERAPY,3567,13.631153,26168,Cases may appear in multiple class rows; percentages need not sum to 100%.
+JADER,SYSTEMIC_GLUCOCORTICOID,771,41.185897,1872,Cases may appear in multiple class rows; percentages need not sum to 100%.
+JADER,ANTIMALARIAL,456,24.358974,1872,Cases may appear in multiple class rows; percentages need not sum to 100%.
+JADER,MYCOPHENOLATE,496,26.495726,1872,Cases may appear in multiple class rows; percentages need not sum to 100%.
+JADER,CALCINEURIN_INHIBITOR,493,26.33547,1872,Cases may appear in multiple class rows; percentages need not sum to 100%.
+JADER,AZATHIOPRINE,104,5.555556,1872,Cases may appear in multiple class rows; percentages need not sum to 100%.
+JADER,CYCLOPHOSPHAMIDE,64,3.418803,1872,Cases may appear in multiple class rows; percentages need not sum to 100%.
+JADER,METHOTREXATE,56,2.991453,1872,Cases may appear in multiple class rows; percentages need not sum to 100%.
+JADER,RITUXIMAB,48,2.564103,1872,Cases may appear in multiple class rows; percentages need not sum to 100%.
+JADER,OTHER_BIOLOGIC_TARGETED_THERAPY,245,13.087607,1872,Cases may appear in multiple class rows; percentages need not sum to 100%.

@@ -1,0 +1,299 @@
+{
+  "repository": "belimumab-infection-replication",
+  "version": "1.0.0",
+  "generated": "2026-09-23",
+  "content_boundary": "Aggregate publication tables, figure-source data, publication figures, and deterministic validation code only.",
+  "excluded": [
+    "patient-level local data",
+    "local source workbook",
+    "report-level FAERS/JADER data",
+    "licensed MedDRA content",
+    "credentials",
+    "internal governance records",
+    "obsolete analyses"
+  ],
+  "safety_scan": {
+    "files_scanned": 20,
+    "filename_hits": 0,
+    "content_hits": 0,
+    "csv_profiles": {
+      "data/common_era_faers_jader.csv": {
+        "columns": [
+          "phenotype_id",
+          "phenotype_name",
+          "FAERS_primary_state",
+          "FAERS_common_era_cases",
+          "FAERS_common_era_ROR",
+          "FAERS_common_era_CI_low",
+          "FAERS_common_era_CI_high",
+          "FAERS_common_era_IC025",
+          "FAERS_common_era_state",
+          "FAERS_robustness_descriptor",
+          "JADER_primary_state",
+          "JADER_common_era_cases",
+          "JADER_common_era_ROR",
+          "JADER_common_era_CI_low",
+          "JADER_common_era_CI_high",
+          "JADER_common_era_IC025",
+          "JADER_common_era_state",
+          "JADER_robustness_descriptor",
+          "common_era_cross_system_pattern"
+        ],
+        "rows": 8
+      },
+      "data/comparator_composition.csv": {
+        "columns": [
+          "source_system",
+          "therapeutic_class",
+          "comparator_case_n",
+          "comparator_case_pct",
+          "denominator_comparator_cases",
+          "multiple_class_membership_note"
+        ],
+        "rows": 18
+      },
+      "data/endpoint_compatibility.csv": {
+        "columns": [
+          "phenotype_id",
+          "phenotype_name",
+          "locked_RCT_state",
+          "locked_FAERS_state",
+          "locked_JADER_state",
+          "locked_Phase4R2_category",
+          "common_era_role",
+          "RCT_endpoint_definition",
+          "RCT_coding_basis",
+          "RCT_severity_scope",
+          "RCT_time_horizon",
+          "RCT_analytical_unit",
+          "RCT_comparator",
+          "RCT_estimand",
+          "RCT_coverage",
+          "FAERS_endpoint_definition",
+          "FAERS_severity_scope",
+          "FAERS_time_horizon",
+          "FAERS_analytical_unit",
+          "FAERS_comparator",
+          "FAERS_estimand",
+          "JADER_endpoint_definition",
+          "JADER_severity_scope",
+          "JADER_time_horizon",
+          "JADER_analytical_unit",
+          "JADER_comparator",
+          "JADER_estimand",
+          "LOCAL_endpoint_definition",
+          "LOCAL_source_status",
+          "LOCAL_severity_scope",
+          "LOCAL_analytical_unit",
+          "LOCAL_comparator",
+          "LOCAL_estimand_boundary",
+          "RCT_FAERS_compatibility",
+          "RCT_JADER_compatibility",
+          "FAERS_JADER_compatibility",
+          "RCT_LOCAL_compatibility",
+          "FAERS_LOCAL_compatibility",
+          "JADER_LOCAL_compatibility",
+          "key_mismatch",
+          "permitted_claim",
+          "prohibited_claim"
+        ],
+        "rows": 8
+      },
+      "data/figure_1_source.csv": {
+        "columns": [
+          "order",
+          "node",
+          "evidence_role",
+          "analytical_unit",
+          "measure",
+          "pooling"
+        ],
+        "rows": 5
+      },
+      "data/figure_2_source.csv": {
+        "columns": [
+          "endpoint_id",
+          "endpoint",
+          "belimumab_events",
+          "belimumab_n",
+          "placebo_events",
+          "placebo_n",
+          "effect",
+          "estimate",
+          "lower",
+          "upper",
+          "interval",
+          "source"
+        ],
+        "rows": 2
+      },
+      "data/figure_3_source.csv": {
+        "columns": [
+          "phenotype_id",
+          "phenotype",
+          "FAERS_ROR",
+          "FAERS_CI_low",
+          "FAERS_CI_high",
+          "FAERS_IC025",
+          "FAERS_state",
+          "JADER_ROR",
+          "JADER_CI_low",
+          "JADER_CI_high",
+          "JADER_IC025",
+          "JADER_state",
+          "FAERS_common_era_state",
+          "JADER_common_era_state",
+          "final_category"
+        ],
+        "rows": 8
+      },
+      "data/table_1.csv": {
+        "columns": [
+          "data_source",
+          "population",
+          "exposure",
+          "comparator",
+          "analytical_unit",
+          "main_measure",
+          "interpretation",
+          "principal_limitation"
+        ],
+        "rows": 5
+      },
+      "data/table_2.csv": {
+        "columns": [
+          "phenotype_id",
+          "phenotype",
+          "RCT_public_aggregate_state",
+          "FAERS_ROR_95CI",
+          "FAERS_IC025",
+          "FAERS_state",
+          "JADER_ROR_95CI",
+          "JADER_IC025",
+          "JADER_state",
+          "common_era_robustness",
+          "final_cross_system_category",
+          "interpretation_boundary"
+        ],
+        "rows": 8
+      },
+      "data/table_3.csv": {
+        "columns": [
+          "phenotype_id",
+          "phenotype",
+          "source_coded_record_count",
+          "patients_with_at_least_one_mapped_record",
+          "serious_coded_record_count",
+          "hospitalization_recorded_count",
+          "temporary_hold_recorded_count",
+          "discontinued_recorded_count",
+          "boundary_note",
+          "table_footnote"
+        ],
+        "rows": 8
+      }
+    }
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 35,
+      "sha256": "c0a5aa25413186200c5aa93b7f584ed818b0916a9e3b1d9a6a4bbaaeb1939f9f"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 470,
+      "sha256": "d888099ad386b98bea429983ee9db66fbf55b376f06301310086374840bbcb45"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1373,
+      "sha256": "522e6194a90fba340e94da0134af1ca1bed597f8e1128171c06372064fcd55b0"
+    },
+    {
+      "path": "data/common_era_faers_jader.csv",
+      "bytes": 3159,
+      "sha256": "b034425254acfc6ee8a08cdcbed934c106399437d5b53288a2f9c7a071f7d6ca"
+    },
+    {
+      "path": "data/comparator_composition.csv",
+      "bytes": 2265,
+      "sha256": "9a4c38c5a3c927ec0947fc6dbc7676d17fb9393b0ba810c5aecb79c06998bc85"
+    },
+    {
+      "path": "data/endpoint_compatibility.csv",
+      "bytes": 31494,
+      "sha256": "94ed0437ba38a4f7a53b95956be40c6a7be435fcf5fe47f3e121a5ce785f28a0"
+    },
+    {
+      "path": "data/figure_1_source.csv",
+      "bytes": 532,
+      "sha256": "17c079ceb3e9df77a3b2aa639f47a658aad7b93acc675342b179788b0ac5d0f8"
+    },
+    {
+      "path": "data/figure_2_source.csv",
+      "bytes": 362,
+      "sha256": "2e4ee47d606ba7b9293f7efddaceff5cf9ba7bcf4064da922a91132b55d52d5e"
+    },
+    {
+      "path": "data/figure_3_source.csv",
+      "bytes": 2245,
+      "sha256": "fefeee4d4ca2564a6465b3a90a8770cb6d5c5fc32460caa3a29b0435233a4bf5"
+    },
+    {
+      "path": "data/table_1.csv",
+      "bytes": 1880,
+      "sha256": "769b3b41c954b3f19d42d907f3becb41d5d926b2414ae4bcb88527ce9a2398fc"
+    },
+    {
+      "path": "data/table_2.csv",
+      "bytes": 2533,
+      "sha256": "9fe0230e240f0337901c07bf24f367f2e644c50dee899e0963665d2f8262ece4"
+    },
+    {
+      "path": "data/table_3.csv",
+      "bytes": 2150,
+      "sha256": "17d1b9561f4f67c8e2eb7d6e4bbe49ce0bcddb06ecea79ad2aa0d18d9b802452"
+    },
+    {
+      "path": "docs/DATA_ACCESS_AND_BOUNDARIES.md",
+      "bytes": 604,
+      "sha256": "ecc64ba5b11eb4d64bd114617f7c26e4d1ac4bb66385b8a71406a92cf44b19ea"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 437,
+      "sha256": "68b9e2be11a4d092208ea4d7f4bb95d7d316f541d50800423bc34417d2e44b1e"
+    },
+    {
+      "path": "environment/requirements.txt",
+      "bytes": 27,
+      "sha256": "64ef59fdc4051b567919e1d9b36c64697281b551455d299db824052c024ae39c"
+    },
+    {
+      "path": "figures/figure_1.png",
+      "bytes": 223325,
+      "sha256": "6fe6e5f8dabd11af76964191a7d2243e69a56c7c7b98355533cde2a331b87354"
+    },
+    {
+      "path": "figures/figure_2.png",
+      "bytes": 181056,
+      "sha256": "853e8c18e6fca5fe01be081225b5eb8a50c2dae314414391f6ba59e33081ea5d"
+    },
+    {
+      "path": "figures/figure_3.png",
+      "bytes": 553324,
+      "sha256": "253503fe99eaf48e69c33e1854ca02a93dba130ad3e608b6ae5a50511db014ef"
+    },
+    {
+      "path": "scripts/reproduce_publication_outputs.py",
+      "bytes": 903,
+      "sha256": "047997f9c63e516767feae750a49cf12c383e62a7901d4f02379c1f770b45c64"
+    },
+    {
+      "path": "zenodo_metadata.json",
+      "bytes": 636,
+      "sha256": "f98cfd0802afed18c1bd027aeda879ee8b9ba57f0f9e5ba55bfc847b1f112f38"
+    }
+  ]
+}

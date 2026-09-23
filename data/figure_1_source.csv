@@ -1,0 +1,6 @@
+order,node,evidence_role,analytical_unit,measure,pooling
+1,RCT,Randomized treatment effect,Participant,RR/RD,No cross-estimand pooling
+2,FAERS,Reporting enrichment,Canonical case,ROR/IC,No cross-estimand pooling
+3,JADER,Independent postmarketing evidence,Distinct report,ROR/IC,No cross-estimand pooling
+4,Common era,Temporal robustness,Time-restricted report,Evidence-state persistence,No cross-estimand pooling
+5,Local records,Source-coded clinical context,Safety record/patient,Descriptive counts,No cross-estimand pooling

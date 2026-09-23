@@ -1,0 +1,3 @@
+endpoint_id,endpoint,belimumab_events,belimumab_n,placebo_events,placebo_n,effect,estimate,lower,upper,interval,source
+P0,BASE aggregate serious infection,75,2002,82,2001,RR,0.914,0.673,1.241,95% CI,locked BEL-INF-01 single-trial effect
+P3,"Serious herpes zoster, pooled six trials",14,1924,6,1414,RR,1.53,0.658,3.735,95% CrI,locked BEL-INF-01 pooled effects

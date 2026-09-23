@@ -1,0 +1,24 @@
+{
+  "title": "Prespecified cross-system replication and robustness of infection safety evidence with belimumab in systemic lupus erythematosus: a FAERS–JADER disproportionality analysis — reproducibility materials",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Xian, Wei"
+    },
+    {
+      "name": "Dong, Ji"
+    },
+    {
+      "name": "Yue, Ying"
+    }
+  ],
+  "description": "Aggregate publication tables, figure-source data, and deterministic validation code.",
+  "keywords": [
+    "belimumab",
+    "FAERS",
+    "JADER",
+    "pharmacovigilance",
+    "disproportionality analysis"
+  ]
+}

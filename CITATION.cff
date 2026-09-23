@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use these materials, cite the associated article."
+title: "Prespecified cross-system replication and robustness of infection safety evidence with belimumab in systemic lupus erythematosus: a FAERS–JADER disproportionality analysis — reproducibility materials"
+type: software
+authors:
+  - family-names: Xian
+    given-names: Wei
+  - family-names: Dong
+    given-names: Ji
+  - family-names: Yue
+    given-names: Ying
+version: 1.0.0
