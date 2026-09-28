@@ -202,13 +202,13 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 470,
-      "sha256": "d888099ad386b98bea429983ee9db66fbf55b376f06301310086374840bbcb45"
+      "bytes": 666,
+      "sha256": "3dad919a55176ea5b52181cc6171bbbe0b9d1498378fcc712982d1bd6a90d0d5"
     },
     {
       "path": "README.md",
-      "bytes": 1373,
-      "sha256": "522e6194a90fba340e94da0134af1ca1bed597f8e1128171c06372064fcd55b0"
+      "bytes": 1426,
+      "sha256": "0ef728213bf85b3fdeb1a336a56e9013a7f36cd1d250ada93b559d37bcf1c154"
     },
     {
       "path": "data/common_era_faers_jader.csv",

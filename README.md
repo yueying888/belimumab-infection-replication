@@ -18,7 +18,7 @@ The script writes CSV copies and a machine-readable validation report to `reprod
 
 ## Version and citation
 
-This clean-history repository is prepared as version `v1.0.0`. Cite the associated article and use `CITATION.cff` for machine-readable author and title metadata. A repository URL or DOI will be added only after the release is publicly deposited; none is claimed in this pre-publication package.
+This clean-history repository is available at <https://github.com/yueying888/belimumab-infection-replication>. Version `v1.0.0` is the publication release for the associated article. Cite the associated article and use `CITATION.cff` for machine-readable author and title metadata. No DOI is claimed unless and until an archival service mints one.
 
 ## Release boundary
 
